@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/fontawesome-free-6.4.2-web/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css"></head>
+<body>
+    <div class="container ">
+    <h1 class="mb-5 p-5 text-center">Bookmarker</h1>
+    <h2 class="mb-5 p-5 text-center">
+        <i class="fa-solid fa-bookmark p-1"></i>Bookmark your favorite sites <i class="fa-solid fa-bookmark p-1"></i>
+    </h2>
+    <div class="labelBag mb-5 d-flex flex-wrap">
+
+    <label for="siteName" class="p-2"><i class="fa-solid fa-book p-1"></i> Site Name</label>
+    <input type="url" placeholder="Bookmark name " class="w-100 rounded-1 p-2" id="siteName">
+
+    <label for="siteUrl" class="p-2"><i class="fa-solid fa-link p-1"></i>Site URL</label>
+    <input type="url" placeholder="website url " class="w-100 rounded-1 p-2" id="siteUrl">
+    <button class="text-white bg-danger m-4 rounded-1 justify-content-center align-items-center " id="addBtn"> submit</button>
+</div>
+<table class="table text-white w-100 max-auto py-5 text-centr text-center ">
+    <thead >
+        <th>index</th>
+        <th>Website Name</th>
+        <th>Visit</th>
+        <th>Delete</th>
+    </thead>
+    <tbody id="tBody">
+  
+    </tbody>
+</table>
+</div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

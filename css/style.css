@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(253, 231, 234);
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    border: 2px dotted black;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+    font-size: 50px;
+}
+h1::before{
+    width: 100%;
+    height: 100%;
+}
+h1::after{
+    width: 100%;
+    height: 100%;
+}
+.container h2{
+    font-family: 'Righteous', sans-serif;
+        background-image: linear-gradient(to left, violet, indigo, rgb(155, 212, 205), rgb(0, 183, 255), rgb(136, 255, 0), orange, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    
+}
+
+.container{
+width: 100%;
+}
+  
+.container .labelBag{
+   border: 2px dotted black;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   
+}
+.container input{
+   border: 1px solid rgb(201, 197, 197);
+   
+   
+}
+.container button{
+   border: none;
+   width: 10rem;
+   height: 3rem;
+   font-size: 20px;
+   
+}
+#yb{
+border-radius: 0.25rem;
+ background-color: yellow;
+ 
+}
+#yb a{
+    color: black;
+    text-decoration: none;
+}
